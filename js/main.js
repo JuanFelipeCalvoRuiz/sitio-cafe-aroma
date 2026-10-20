@@ -17,3 +17,5 @@ if (form) {
     form.reset();
   });
 }
+
+document.getElementById("anio").textContent = new Date().getFullYear();
